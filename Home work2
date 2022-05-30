@@ -1,0 +1,22 @@
+using System;
+
+
+namespace myFirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int _health = 100;
+            float _speed = 15f;
+            double _tableHeight = 5.23;
+            bool _isYourName = false;
+            byte _coins = 23;
+            sbyte _npcRespect = -30;
+            var _reloading = 30f;
+            char c = 'S';
+            ulong _old = 14;
+            string _yourName = "Ladislav";
+        }
+    }
+}
