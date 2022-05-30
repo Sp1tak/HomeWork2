@@ -7,16 +7,16 @@ namespace myFirstApp
     {
         static void Main(string[] args)
         {
-            int Health = 100;
-            float Speed = 15f;
-            double TableHeight = 5.23;
-            bool IsYourName = false;
-            byte Coins = 23;
-            sbyte NpcRespect = -30;
-            var Reloading = 30f;
-            char C = 'S';
-            ulong Age = 14;
-            string YourName = "Ladislav";
+            int health = 100;
+            float speed = 15f;
+            double tableHeight = 5.23;
+            bool isYourName = false;
+            byte coins = 23;
+            sbyte npcRespect = -30;
+            var reloading = 30f;
+            char c = 'S';
+            ulong age = 14;
+            string yourName = "Ladislav";
         }
     }
 }
