@@ -1,0 +1,20 @@
+using System;
+
+
+namespace myFirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Ковыч"; 
+            string surname = "Ладислав";
+            string emptyBox;
+            Console.WriteLine("Имя: " + name + "  " + "Фамилия: " + surname);
+            emptyBox = name;
+            name = surname;
+            surname = emptyBox;
+            Console.WriteLine("Имя: " + name + "  " + "Фамилия: " + surname);
+        }
+    }
+}
