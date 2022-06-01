@@ -1,0 +1,27 @@
+using System;
+
+
+namespace myFirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name;
+            string age;
+            string sity;
+            string yourWork;
+            Console.WriteLine("Как вас зовут?");
+            name = Console.ReadLine();
+            Console.WriteLine("Сколько вам лет?");
+            age = Console.ReadLine();
+            Console.WriteLine("В каком городе вы живете?");
+            sity = Console.ReadLine();
+            Console.WriteLine("Ваша професия?");
+            yourWork = Console.ReadLine();
+            Console.WriteLine("Нажмите Enter");
+            Console.ReadKey();
+            Console.WriteLine("Имя: " + name + ", " + "Возраст: " + age + ", " + "Город проживания: " + sity + ", " + "Професия: " + yourWork + ".");
+        }
+    }
+}
