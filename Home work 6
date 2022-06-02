@@ -1,0 +1,25 @@
+
+using System;
+
+namespace HwJunior
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int allPhotos;
+            int rows;
+            int filledRows;
+            int superfluousPhotos;
+
+            Console.WriteLine("Сколько всего фотографий?");
+            allPhotos = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Сколько всего рядов?");
+            rows = Convert.ToInt32(Console.ReadLine());
+            filledRows = allPhotos / rows;
+            superfluousPhotos = allPhotos % rows;
+            Console.WriteLine("Всего заполненных рядов: " + filledRows + "; " + "Фотографий сверх меры: " + superfluousPhotos + "." );
+
+        }
+    }
+}
