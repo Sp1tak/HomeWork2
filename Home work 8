@@ -10,7 +10,7 @@ namespace HwJunior
             int allTimeInLine;
             int allHoursInLine;
             int allMinitsInLine;
-            int oneHoursAndMinits = 60;
+            int hourDurationInMinutes = 60;
             int onePeupleInLine = 14;
             Console.WriteLine("Сколько человек в очереди?");
             peuple = Convert.ToInt32(Console.ReadLine());
