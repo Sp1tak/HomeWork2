@@ -1,0 +1,24 @@
+using System;
+
+namespace HwJunior
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int gold;
+            int diamond;
+            int diamondPrice = 150;
+            int convertGoldForDiamond;
+            Console.WriteLine("Сколько у вас золота?");
+            gold = Convert.ToInt32(Console.ReadLine());
+            convertGoldForDiamond = gold / diamondPrice;
+            Console.WriteLine("Цена одного кристала:" + " " + diamondPrice);
+            Console.WriteLine("Вы можете купить за ваше золото:" + " " + convertGoldForDiamond + " " +"алмаза");
+            Console.WriteLine("Сколько алмазов вы хотите купить?");
+            diamond = Convert.ToInt32(Console.ReadLine());
+            gold = gold - (diamond * diamondPrice);
+            Console.WriteLine("У вас:" + " " + gold + "штук золота" + " " + "и" + " " + diamond + " " +"алмаза");
+         }
+    } 
+}
