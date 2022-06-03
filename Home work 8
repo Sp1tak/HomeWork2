@@ -1,0 +1,24 @@
+using System;
+
+namespace HwJunior
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int peuple;
+            int allTimeInLine;
+            int allHoursInLine;
+            int allMinitsInLine;
+            int oneHoursAndMinits = 60;
+            int onePeupleInLine = 14;
+            Console.WriteLine("Сколько человек в очереди?");
+            peuple = Convert.ToInt32(Console.ReadLine());
+            allTimeInLine = peuple * onePeupleInLine;
+            allHoursInLine = allTimeInLine / oneHoursAndMinits;
+            allMinitsInLine = allTimeInLine % oneHoursAndMinits;
+            Console.WriteLine("В очереди вы будете стоять:" + " " + allHoursInLine + " " + "часов" + " " + allMinitsInLine + "минут");
+        }
+    }
+}
+
