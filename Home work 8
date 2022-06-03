@@ -15,8 +15,8 @@ namespace HwJunior
             Console.WriteLine("Сколько человек в очереди?");
             peuple = Convert.ToInt32(Console.ReadLine());
             allTimeInLine = peuple * onePeupleInLine;
-            allHoursInLine = allTimeInLine / oneHoursAndMinits;
-            allMinitsInLine = allTimeInLine % oneHoursAndMinits;
+            allHoursInLine = allTimeInLine /hourDurationInMinutes;
+            allMinitsInLine = allTimeInLine % hourDurationInMinutes;
             Console.WriteLine("В очереди вы будете стоять:" + " " + allHoursInLine + " " + "часов" + " " + allMinitsInLine + "минут");
         }
     }
